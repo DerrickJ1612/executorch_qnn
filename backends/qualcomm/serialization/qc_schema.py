@@ -49,7 +49,7 @@ class QcomChipset(IntEnum):
     SXR1230P = 45   # v73
     SXR2230P = 53   # v69
     SXR2330P = 75   # v79
-    QCS9075 = 73    # V73
+    QCS9075 = 52    # v73
 
 
 @dataclass
