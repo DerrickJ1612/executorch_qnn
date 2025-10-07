@@ -40325,3 +40325,4 @@ Range constraints: {}
 
 [2025-10-07 09:02:37,107][root][INFO] - Applied partitioners: <executorch.backends.qualcomm.partition.qnn_partitioner.QnnPartitioner object at 0x754940d91360>
 [2025-10-07 09:02:48,918][root][INFO] - Required memory for activation in bytes: [0, 229889024]
+[2025-10-07 09:02:49,937][root][INFO] - Saved exported program to /home/derrjohn/.llama/checkpoints/Llama3.2-3B-Instruct/pte/llama3_2_instruct_w8a16_SoC_77_v73_QCS9100.pte
