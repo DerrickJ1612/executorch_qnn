@@ -1,0 +1,31 @@
+base:
+  model_class: llama3_2
+  checkpoint: /home/derrjohn/.llama/checkpoints/Llama3.2-3B-Instruct/consolidated.00.pth
+  params: /home/derrjohn/.llama/checkpoints/Llama3.2-3B-Instruct/params.json
+  tokenizer_path: /home/derrjohn/.llama/checkpoints/Llama3.2-3B-Instruct/tokenizer.model
+  metadata: '{"get_bos_id":128000, "get_eos_ids":128001}'
+model:
+  use_kv_cache: true
+  enable_dynamic_shape: false
+quantization:
+  pt2e_quantize: qnn_16a4w
+  calibration_data: '{ "routine_name": "Morning Flow", "difficulty": "beginner", "total_duration":
+    15, "poses": [ { "step": 1, "pose_name": "Neck Rolls", "hold_duration": 60, "instructions":
+    "Sit comfortably, place hands on your knees. Gently roll your head from side to
+    side, looking as far as you comfortably can.  Focus on relaxing your neck muscles.
+    (30 seconds)", "key_alignments": [ "relaxed shoulders" ]}, { "step": 2, "pose_name":
+    "Chin Tucks", "hold_duration": 60, "instructions": "Sit tall with a straight spine.
+    Gently tuck your chin towards your chest, holding for 5-10 seconds. Repeat 5-10
+    times. (30 seconds)", "key_alignments": [ "relaxed shoulders" ]} ] }'
+debug:
+  verbose: true
+  generate_etrecord: false
+export:
+  output_dir: /home/derrjohn/.llama/checkpoints/Llama3.2-3B-Instruct/pte
+  output_name: /home/derrjohn/.llama/checkpoints/Llama3.2-3B-Instruct/pte/llama3_2_instruct_w8a16_SoC_77_v73_QCS9100.pte
+  max_seq_length: 500
+  max_context_length: 500
+backend:
+  qnn:
+    enabled: true
+    soc_model: QCS9100
