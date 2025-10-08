@@ -1,0 +1,144 @@
+I 00:00:00.000284 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/examples/qualcomm/executor_runner/qnn_executor_runner.cpp:184] Setting runtime log level: 5
+I 00:00:00.000412 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/examples/qualcomm/executor_runner/qnn_executor_runner.cpp:232] Model file /home/ubuntu/Desktop/llama3.2-3B_Instruct/llama3_2_instruct_w8a16_SoC_52_v73.pte is loaded.
+I 00:00:00.000418 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/examples/qualcomm/executor_runner/qnn_executor_runner.cpp:242] Using method forward
+I 00:00:00.000422 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/examples/qualcomm/executor_runner/qnn_executor_runner.cpp:289] Setting up planned buffer 0, size 229889024.
+[INFO] [Qnn ExecuTorch]: Deserializing processed data using QnnContextCustomProtocol
+[INFO] [Qnn ExecuTorch]: soc_model in soc_info: QCS9075
+[INFO] [Qnn ExecuTorch]: backend_type: kHtpBackend
+[INFO] [Qnn ExecuTorch]: graph_name: forward
+[INFO] [Qnn ExecuTorch]: library_path: 
+[INFO] [Qnn ExecuTorch]: dump intermediate outputs: (null)
+[INFO] [Qnn ExecuTorch]: log_level: kLogLevelDebug
+[INFO] [Qnn ExecuTorch]: profile_level: kProfileOff
+[INFO] [Qnn ExecuTorch]: the size of qnn context binary: -1877270528
+[INFO] [Qnn ExecuTorch]: Is on-device graph construction: 0
+[INFO] [Qnn ExecuTorch]: Enable shared buffer: 0
+[INFO] [Qnn ExecuTorch]: The number of op packages: 0
+[INFO] [Qnn ExecuTorch]: create QNN Logger with log_level 5
+[INFO] [Qnn ExecuTorch]:  <I> QnnLog_create started.
+
+[INFO] [Qnn ExecuTorch]:  <V> Registered a new graph environment 0 with priority: 100, num hvx threads: 1001, num hmx threads: 1001
+
+[WARNING] [Qnn ExecuTorch]:  <W> Initializing HtpProvider
+
+[INFO] [Qnn ExecuTorch]:  <V> Creating default router
+
+[INFO] [Qnn ExecuTorch]:  <V> RouterFastRPC create
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: Initializing the router
+
+[INFO] [Qnn ExecuTorch]:  <V> Detected Snapdragon SOC QCS9100 with 2 SOCs
+
+[INFO] [Qnn ExecuTorch]:  <V> Allocating PlatformInfo struct size 216
+
+[INFO] [Qnn ExecuTorch]:  <V> Async property not supported. Skipping setup async threads
+
+[INFO] [Qnn ExecuTorch]:  <V> Detected Snapdragon SOC QCS9100 with 2 SOCs
+
+[INFO] [Qnn ExecuTorch]:  <V> Allocating PlatformInfo struct size 216
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: Initializing the graph registry
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: Initializing the context registry
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: Initializing the device registry
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: Initializing the tensor counter
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: setting isExitCalled to false
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: setting ssrInProgress to false
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: FinalCleanupFn fnPtr is nullptr
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: initializing mem registry
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: initializing mmap registry
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: initializing graphId registry
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: initializing va map fd registry
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: initializing graph va map fd registry
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: initializing debugFactory
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: Initializing the logger lifecycle manager
+
+[INFO] [Qnn ExecuTorch]:  <V> HTP: constructing bundle
+
+[INFO] [Qnn ExecuTorch]:  <V> Set default graph environment 0 remoteHandle 0
+
+[INFO] [Qnn ExecuTorch]:  <V> Opened default graph env, envRemoteHandle 0
+
+[ERROR] [Qnn ExecuTorch]:  <E> Dsp startup: Unsupported SoC model (SnapdragonModel): 77
+
+[ERROR] [Qnn ExecuTorch]:  <E> Htp startup on load failed
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to init support HTP features
+
+[ERROR] [Qnn ExecuTorch]:  <E> failed sg_htpSingletonProvider initialize: 4000
+
+[WARNING] [Qnn ExecuTorch]: Failed to create log_handle for backend  6, qnn_log_level 5, error=4000
+[INFO] [Qnn ExecuTorch]: Initialize Qnn backend parameters for Qnn executorch backend type 2
+[INFO] [Qnn ExecuTorch]: skel_library_dir: 
+[INFO] [Qnn ExecuTorch]: htp_arch in htp_info: V73
+[INFO] [Qnn ExecuTorch]: vtcm_size_in_mb in htp_info: 8
+[INFO] [Qnn ExecuTorch]: performance_mode in htp_options: kHtpBurst
+[INFO] [Qnn ExecuTorch]: precision in htp_options: kHtpQuantized
+[INFO] [Qnn ExecuTorch]: pd_session in htp_options: kHtpUnsignedPd
+[INFO] [Qnn ExecuTorch]: use_conv_hmx in htp_options: 1
+[INFO] [Qnn ExecuTorch]: use_fold_relu in htp_options: 1
+[INFO] [Qnn ExecuTorch]: Caching: Caching is in RESTORE MODE.
+[INFO] [Qnn ExecuTorch]: QnnContextCustomProtocol expected magic number: 0x5678abcd but get: 0x2000000
+[INFO] [Qnn ExecuTorch]:  <V> HTP: setting FinalCleanupFn fnPtr
+
+[INFO] [Qnn ExecuTorch]:  <I> QnnBackend_create started. backend = 0x2576b878
+
+[INFO] [Qnn ExecuTorch]:  <V> Oem key validation infra not found
+
+[INFO] [Qnn ExecuTorch]:  <V> Backend handle created: 1
+
+[INFO] [Qnn ExecuTorch]:  <V> Set default graph environment 0 remoteHandle 0
+
+[INFO] [Qnn ExecuTorch]:  <V> Opened default graph env, envRemoteHandle 0
+
+[INFO] [Qnn ExecuTorch]:  <I> QnnBackend_create done successfully. backend = 0x2576b878
+
+[INFO] [Qnn ExecuTorch]:  <I> QnnDevice_create started
+
+[INFO] [Qnn ExecuTorch]:  <V> Create device with id 0x1
+
+[INFO] [Qnn ExecuTorch]:  <V> Config not passed. Loading default platform info!
+
+[INFO] [Qnn ExecuTorch]:  <V> Setting default value for unsigned PD usage
+
+[INFO] [Qnn ExecuTorch]:  <V> Setting default value for unsigned PD usage
+
+[ERROR] [Qnn ExecuTorch]:  <E> Invalid dsp arch. Cannot determine stub
+
+[WARNING] [Qnn ExecuTorch]:  <W> Failed to create transport instance: 4000
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to create transport for device, error: 4000
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to load skel, error: 4000
+
+[INFO] [Qnn ExecuTorch]:  <V> exits device initialization with  14001
+
+[ERROR] [Qnn ExecuTorch]:  <E> Transport layer setup failed: 14001
+
+[INFO] [Qnn ExecuTorch]:  <V> SSR not encountered
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to parse default platform info: 14001
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to load default platform info: 14001
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to parse platform config: 14001
+
+[INFO] [Qnn ExecuTorch]:  <I> QnnDevice_create done. status 0x36b1
+
+[ERROR] [Qnn ExecuTorch]: Failed to create device_handle for Backend ID 6, error=14001
+E 00:00:01.218157 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/backends/qualcomm/runtime/QnnManager.cpp:337] Fail to configure Qnn device
+E 00:00:01.218172 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/backends/qualcomm/runtime/QnnExecuTorchBackend.cpp:92] Fail to initialize Qnn Manager
+E 00:00:01.218175 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/runtime/executor/method.cpp:110] Init failed for backend QnnBackend: 0x1
+F 00:00:01.419310 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/examples/qualcomm/executor_runner/qnn_executor_runner.cpp:308] In function main(), assert failed (method.ok()): Loading of method forward failed with status 0x1
