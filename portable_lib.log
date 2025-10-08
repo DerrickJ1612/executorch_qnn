@@ -1,0 +1,87 @@
+[1/7] cd /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/src/build && /usr/bin/cmake --build . && /usr/bin/cmake -E touch /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/src/flatcc_ep-stamp/flatcc_ep-build
+[1/1] Linking C executable /home/ubuntu/Desktop/git/executorch_qnn/executorch/third-party/flatcc/bin/flatcc
+[2/4] cd /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/src/build && /usr/bin/cmake --build . --target install && /usr/bin/cmake -E touch /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/src/flatcc_ep-stamp/flatcc_ep-install
+[0/1] Install the project...
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/support
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/support/cdump.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/support/elapsed.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/support/README
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/support/hexdump.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/support/readfile.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_json_printer.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_emitter.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_refmap.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_verifier.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_builder.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_identifier.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_prologue.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_assert.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_portable.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_types.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_accessors.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_json_parser.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/reflection
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/reflection/flatbuffers_common_reader.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/reflection/reflection_verifier.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/reflection/README
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/reflection/reflection_reader.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/reflection/flatbuffers_common_builder.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/reflection/reflection_builder.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_rtconfig.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_iov.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_endian.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pendian.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pprintfp.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/prestrict.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pattributes.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pendian_detect.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pinline.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pversion.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/grisu3_print.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pbase64.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pstdbool.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/include
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/include/std
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/include/std/stdalign.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/include/std/inttypes.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/include/std/stdint.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/include/std/stdbool.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/include/README
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/include/linux
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/include/linux/endian.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pwarnings.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/grisu3_math.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pmemaccess.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pstatic_assert.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/README.md
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pstdint.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pstatic_assert_scope.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pdiagnostic_push.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pparsefp.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pstdalign.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pinttypes.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pdiagnostic.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/portable_basic.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pdiagnostic_pop.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pparseint.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/portable.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/paligned_alloc.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/grisu3_parse.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/LICENSE
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pcrt.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/pprintint.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/portable/punaligned.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_unaligned.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_epilogue.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_version.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_flatbuffers.h
+-- Up-to-date: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/include/flatcc/flatcc_alloc.h
+-- Installing: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/lib/libflatccrt.a
+-- Installing: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/lib/libflatcc.a
+-- Installing: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/bin/flatcc
+[3/4] cd /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party && /usr/bin/cmake -E make_directory /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/CMakeFiles && /usr/bin/cmake -E touch /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/CMakeFiles/flatcc_ep-complete && /usr/bin/cmake -E touch /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/third-party/flatcc_ep/src/flatcc_ep-stamp/flatcc_ep-done
+[4/4] : && /usr/bin/g++-9 -fPIC -O2 -ffunction-sections -fdata-sections -O3 -DNDEBUG -s  -shared -flto -Wl,--whole-archive /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/libexecutorch.a -Wl,--no-whole-archive -Wl,--whole-archive /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/kernels/portable/libportable_ops_lib.a -Wl,--no-whole-archive -Wl,--whole-archive /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/backends/qualcomm/libqnn_executorch_backend.so -Wl,--no-whole-archive -Wl,--whole-archive /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/backends/xnnpack/libxnnpack_backend.a -Wl,--no-whole-archive -Wl,--dependency-file=CMakeFiles/portable_lib.dir/link.d -Wl,-soname,_portable_lib.cpython-310-aarch64-linux-gnu.so -o _portable_lib.cpython-310-aarch64-linux-gnu.so CMakeFiles/portable_lib.dir/extension/pybindings/pybindings.cpp.o  -Wl,-rpath,"\$ORIGIN/../../../torch/lib:/home/ubuntu/Desktop/virtual_envs/env_executorch/lib/python3.10/site-packages/torch/lib"  /home/ubuntu/Desktop/virtual_envs/env_executorch/lib/python3.10/site-packages/torch/lib/libtorch_python.so  devtools/bundled_program/libbundled_program.a  devtools/etdump/libetdump.a  /home/ubuntu/Desktop/git/executorch_qnn/executorch/third-party/flatcc/lib/libflatccrt.a  libexecutorch.a  extension/data_loader/libextension_data_loader.a  libutil.a  /home/ubuntu/Desktop/virtual_envs/env_executorch/lib/python3.10/site-packages/torch/lib/libtorch.so  extension/module/libextension_module_static.a  libbundled_module.a  kernels/portable/libportable_ops_lib.a  backends/qualcomm/libqnn_executorch_backend.so  backends/xnnpack/libxnnpack_backend.a  backends/xnnpack/third-party/XNNPACK/libXNNPACK.a  backends/xnnpack/third-party/XNNPACK/libxnnpack-microkernels-prod.a  -Wl,--no-as-needed,"/home/ubuntu/Desktop/virtual_envs/env_executorch/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so" -Wl,--as-needed  /home/ubuntu/Desktop/virtual_envs/env_executorch/lib/python3.10/site-packages/torch/lib/libc10.so  extension/tensor/libextension_tensor.a  devtools/bundled_program/libbundled_program.a  libexecutorch.a  extension/module/libextension_module_static.a  extension/data_loader/libextension_data_loader.a  extension/flat_tensor/libextension_flat_tensor.a  kernels/portable/libportable_kernels.a  kernels/portable/cpu/util/libkernels_util_all_deps.a  -lm  extension/threadpool/libextension_threadpool.a  libexecutorch_core.a  -ldl  backends/xnnpack/third-party/pthreadpool/libpthreadpool.a  backends/xnnpack/third-party/cpuinfo/libcpuinfo.a && cd /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out && /usr/bin/strip /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/_portable_lib.cpython-310-aarch64-linux-gnu.so

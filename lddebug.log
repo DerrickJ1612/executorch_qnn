@@ -1,0 +1,247 @@
+     31262:	find library=libqnn_executorch_backend.so [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libqnn_executorch_backend.so
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned/libqnn_executorch_backend.so
+     31262:	  trying file=libqnn_executorch_backend.so
+     31262:	 search path=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib		(RUNPATH from file ./cmake-out/examples/models/llama/llama_main)
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/libqnn_executorch_backend.so
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner/libqnn_executorch_backend.so
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib/libqnn_executorch_backend.so
+     31262:	
+     31262:	find library=libllama_runner.so [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libllama_runner.so
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned/libllama_runner.so
+     31262:	  trying file=libllama_runner.so
+     31262:	 search path=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib		(RUNPATH from file ./cmake-out/examples/models/llama/llama_main)
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/libllama_runner.so
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner/libllama_runner.so
+     31262:	
+     31262:	find library=libstdc++.so.6 [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libstdc++.so.6
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned/libstdc++.so.6
+     31262:	  trying file=libstdc++.so.6
+     31262:	 search path=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib		(RUNPATH from file ./cmake-out/examples/models/llama/llama_main)
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/libstdc++.so.6
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner/libstdc++.so.6
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib/libstdc++.so.6
+     31262:	 search cache=/etc/ld.so.cache
+     31262:	  trying file=/lib/aarch64-linux-gnu/libstdc++.so.6
+     31262:	
+     31262:	find library=libm.so.6 [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libm.so.6
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned/libm.so.6
+     31262:	  trying file=libm.so.6
+     31262:	 search path=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib		(RUNPATH from file ./cmake-out/examples/models/llama/llama_main)
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/libm.so.6
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner/libm.so.6
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib/libm.so.6
+     31262:	 search cache=/etc/ld.so.cache
+     31262:	  trying file=/lib/aarch64-linux-gnu/libm.so.6
+     31262:	
+     31262:	find library=libgcc_s.so.1 [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libgcc_s.so.1
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned/libgcc_s.so.1
+     31262:	  trying file=libgcc_s.so.1
+     31262:	 search path=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib		(RUNPATH from file ./cmake-out/examples/models/llama/llama_main)
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/libgcc_s.so.1
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner/libgcc_s.so.1
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib/libgcc_s.so.1
+     31262:	 search cache=/etc/ld.so.cache
+     31262:	  trying file=/lib/aarch64-linux-gnu/libgcc_s.so.1
+     31262:	
+     31262:	find library=libc.so.6 [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libc.so.6
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned/libc.so.6
+     31262:	  trying file=libc.so.6
+     31262:	 search path=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner:/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib		(RUNPATH from file ./cmake-out/examples/models/llama/llama_main)
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/libc.so.6
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner/libc.so.6
+     31262:	  trying file=/home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib/libc.so.6
+     31262:	 search cache=/etc/ld.so.cache
+     31262:	  trying file=/lib/aarch64-linux-gnu/libc.so.6
+     31262:	
+     31262:	
+     31262:	calling init: /lib/ld-linux-aarch64.so.1
+     31262:	
+     31262:	
+     31262:	calling init: /lib/aarch64-linux-gnu/libc.so.6
+     31262:	
+     31262:	
+     31262:	calling init: /lib/aarch64-linux-gnu/libgcc_s.so.1
+     31262:	
+     31262:	
+     31262:	calling init: /lib/aarch64-linux-gnu/libm.so.6
+     31262:	
+     31262:	
+     31262:	calling init: /lib/aarch64-linux-gnu/libstdc++.so.6
+     31262:	
+     31262:	
+     31262:	calling init: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner/libllama_runner.so
+     31262:	
+I tokenizers:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/tokenizers/src/regex.cpp:27] Registering override fallback regex
+     31262:	
+     31262:	calling init: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib/libqnn_executorch_backend.so
+     31262:	
+     31262:	
+     31262:	initialize program: ./cmake-out/examples/models/llama/llama_main
+     31262:	
+I tokenizers:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/tokenizers/src/regex.cpp:27] Registering override fallback regex
+     31262:	
+     31262:	transferring control: ./cmake-out/examples/models/llama/llama_main
+     31262:	
+I 00:00:00.001079 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:71] Reading file /sys/devices/soc0/image_version
+I 00:00:00.001115 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:87] Failed to open midr file /sys/devices/soc0/image_version
+I 00:00:00.001129 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu0/regs/identification/midr_el1
+I 00:00:00.001178 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu1/regs/identification/midr_el1
+I 00:00:00.001203 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu2/regs/identification/midr_el1
+I 00:00:00.001226 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu3/regs/identification/midr_el1
+I 00:00:00.001248 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu4/regs/identification/midr_el1
+I 00:00:00.001271 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu5/regs/identification/midr_el1
+I 00:00:00.001294 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu6/regs/identification/midr_el1
+I 00:00:00.001318 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/threadpool/cpuinfo_utils.cpp:100] Reading file /sys/devices/system/cpu/cpu7/regs/identification/midr_el1
+I 00:00:00.001341 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/examples/models/llama/main.cpp:86] Resetting threadpool with num threads = 8
+I 00:00:00.001967 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/examples/models/llama/runner/runner.cpp:40] Creating LLaMa runner: model_path=/home/ubuntu/Desktop/llama3.2-3B_Instruct/llama3_2_instruct_w8a16_SoC_52_v73.pte, tokenizer_path=/home/ubuntu/Desktop/llama3.2-3B_Instruct/tokenizer.model
+E tokenizers:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/tokenizers/src/hf_tokenizer.cpp:60] Error parsing json file: [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - invalid literal; last read: 'I'
+I 00:00:00.298657 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/runner/llm_runner_helper.cpp:71] Loaded TikToken tokenizer
+I 00:00:00.298694 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/runner/llm_runner_helper.cpp:202] Reading metadata from model
+I 00:00:00.298852 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/runner/llm_runner_helper.cpp:133] Metadata: use_sdpa_with_kv_cache = 0
+I 00:00:00.298889 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/runner/llm_runner_helper.cpp:133] Metadata: get_max_context_len = 500
+I 00:00:00.298894 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/runner/llm_runner_helper.cpp:133] Metadata: get_max_seq_len = 500
+I 00:00:00.298897 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/runner/llm_runner_helper.cpp:133] Metadata: use_kv_cache = 1
+I 00:00:00.298901 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/runner/llm_runner_helper.cpp:133] Metadata: enable_dynamic_shape = 0
+I 00:00:00.298914 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/extension/llm/runner/llm_runner_helper.cpp:175] eos_id = 128001
+[INFO] [Qnn ExecuTorch]: Deserializing processed data using QnnContextCustomProtocol
+     31262:	find library=libQnnHtp.so [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libQnnHtp.so
+     31262:	
+     31262:	find library=libQnnHtp.so [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libQnnHtp.so
+     31262:	
+     31262:	find library=libdl.so.2 [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libdl.so.2
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned/libdl.so.2
+     31262:	  trying file=libdl.so.2
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libdl.so.2
+     31262:	 search cache=/etc/ld.so.cache
+     31262:	  trying file=/lib/aarch64-linux-gnu/libdl.so.2
+     31262:	
+     31262:	find library=libpthread.so.0 [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libpthread.so.0
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned/libpthread.so.0
+     31262:	  trying file=libpthread.so.0
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libpthread.so.0
+     31262:	 search cache=/etc/ld.so.cache
+     31262:	  trying file=/lib/aarch64-linux-gnu/libpthread.so.0
+     31262:	
+     31262:	
+     31262:	calling init: /lib/aarch64-linux-gnu/libpthread.so.0
+     31262:	
+     31262:	
+     31262:	calling init: /lib/aarch64-linux-gnu/libdl.so.2
+     31262:	
+     31262:	
+     31262:	calling init: /home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libQnnHtp.so
+     31262:	
+     31262:	/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libQnnHtp.so: error: symbol lookup error: undefined symbol: QnnSaver_initialize (fatal)
+[INFO] [Qnn ExecuTorch]: create QNN Logger with log_level 1
+[ERROR] [Qnn ExecuTorch]:  <E> Dsp startup: Unsupported SoC model (SnapdragonModel): 77
+
+[ERROR] [Qnn ExecuTorch]:  <E> Htp startup on load failed
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to init support HTP features
+
+[ERROR] [Qnn ExecuTorch]:  <E> failed sg_htpSingletonProvider initialize: 4000
+
+[WARNING] [Qnn ExecuTorch]: Failed to create log_handle for backend  6, qnn_log_level 1, error=4000
+[INFO] [Qnn ExecuTorch]: Initialize Qnn backend parameters for Qnn executorch backend type 2
+     31262:	find library=libQnnSystem.so [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libQnnSystem.so
+     31262:	
+     31262:	find library=libatomic.so.1 [0]; searching
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4:/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned:		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libatomic.so.1
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/hexagon-v73/unsigned/libatomic.so.1
+     31262:	  trying file=libatomic.so.1
+     31262:	 search path=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4		(LD_LIBRARY_PATH)
+     31262:	  trying file=/home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libatomic.so.1
+     31262:	 search cache=/etc/ld.so.cache
+     31262:	  trying file=/lib/aarch64-linux-gnu/libatomic.so.1
+     31262:	
+     31262:	
+     31262:	calling init: /lib/aarch64-linux-gnu/libatomic.so.1
+     31262:	
+     31262:	
+     31262:	calling init: /home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libQnnSystem.so
+     31262:	
+[INFO] [Qnn ExecuTorch]: Caching: Caching is in RESTORE MODE.
+[INFO] [Qnn ExecuTorch]: QnnContextCustomProtocol expected magic number: 0x5678abcd but get: 0x2000000
+[ERROR] [Qnn ExecuTorch]:  <E> Invalid dsp arch. Cannot determine stub
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to create transport for device, error: 4000
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to load skel, error: 4000
+
+[ERROR] [Qnn ExecuTorch]:  <E> Transport layer setup failed: 14001
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to parse default platform info: 14001
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to load default platform info: 14001
+
+[ERROR] [Qnn ExecuTorch]:  <E> Failed to parse platform config: 14001
+
+[ERROR] [Qnn ExecuTorch]: Failed to create device_handle for Backend ID 6, error=14001
+E 00:00:01.533559 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/backends/qualcomm/runtime/QnnManager.cpp:337] Fail to configure Qnn device
+E 00:00:01.533566 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/backends/qualcomm/runtime/QnnExecuTorchBackend.cpp:92] Fail to initialize Qnn Manager
+E 00:00:01.533571 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/runtime/executor/method.cpp:110] Init failed for backend QnnBackend: 0x1
+E 00:00:01.756417 executorch:/home/ubuntu/Desktop/git/executorch_qnn/executorch/examples/models/llama/main.cpp:116] Failed to warmup llama runner
+     31262:	
+     31262:	calling fini:  [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/et-install/lib/libqnn_executorch_backend.so [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /home/ubuntu/Desktop/git/executorch_qnn/executorch/cmake-out/examples/models/llama/runner/libllama_runner.so [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libQnnHtp.so [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /home/ubuntu/Desktop/qairt/2.38.0.250901//lib/aarch64-ubuntu-gcc9.4/libQnnSystem.so [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /lib/aarch64-linux-gnu/libstdc++.so.6 [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /lib/aarch64-linux-gnu/libgcc_s.so.1 [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /lib/aarch64-linux-gnu/libm.so.6 [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /lib/aarch64-linux-gnu/libpthread.so.0 [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /lib/aarch64-linux-gnu/libdl.so.2 [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /lib/aarch64-linux-gnu/libatomic.so.1 [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /lib/aarch64-linux-gnu/libc.so.6 [0]
+     31262:	
+     31262:	
+     31262:	calling fini: /lib/ld-linux-aarch64.so.1 [0]
+     31262:	

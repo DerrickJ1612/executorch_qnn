@@ -62,10 +62,10 @@ done
 PRJ_ROOT="$( cd "$(dirname "$0")/../../.." ; pwd -P)"
 
 if [ "$BUILD_AARCH64" = true ]; then
-    if [[ -z ${ANDROID_NDK_ROOT} ]]; then
-        echo "Please export ANDROID_NDK_ROOT=/path/to/android_ndkXX"
-        exit -1
-    fi
+#     # if [[ -z ${ANDROID_NDK_ROOT} ]]; then
+#     #     echo "Please export ANDROID_NDK_ROOT=/path/to/android_ndkXX"
+#     #     exit -1
+#     fi
 
     BUILD_ROOT=$PRJ_ROOT/$CMAKE_AARCH64
     if [ "$CLEAN" = true ]; then
@@ -90,10 +90,7 @@ if [ "$BUILD_AARCH64" = true ]; then
         -DEXECUTORCH_ENABLE_EVENT_TRACER=ON \
         -DEXECUTORCH_ENABLE_LOGGING=ON \
         -DQNN_SDK_ROOT=$QNN_SDK_ROOT \
-        -DCMAKE_TOOLCHAIN_FILE=$ANDROID_NDK_ROOT/build/cmake/android.toolchain.cmake \
-        -DANDROID_ABI='arm64-v8a' \
         -DEXECUTORCH_BUILD_KERNELS_QUANTIZED=ON \
-        -DANDROID_PLATFORM=android-30 \
         -DPYTHON_EXECUTABLE=$PYTHON_EXECUTABLE \
         -B$BUILD_ROOT
 
@@ -103,10 +100,7 @@ if [ "$BUILD_AARCH64" = true ]; then
     CMAKE_PREFIX_PATH="${BUILD_ROOT};${BUILD_ROOT}/third-party/gflags;"
 
     cmake $PRJ_ROOT/$EXAMPLE_ROOT \
-        -DCMAKE_TOOLCHAIN_FILE=$ANDROID_NDK_ROOT/build/cmake/android.toolchain.cmake \
         -DCMAKE_BUILD_TYPE=$BUILD_TYPE \
-        -DANDROID_ABI='arm64-v8a' \
-        -DANDROID_PLATFORM=android-30 \
         -DCMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH \
         -DSUPPORT_REGEX_LOOKAHEAD=ON \
         -DBUILD_TESTING=OFF \
@@ -121,10 +115,7 @@ if [ "$BUILD_AARCH64" = true ]; then
     LLAMA_EXAMPLE_ROOT=examples/models/llama
     cmake $PRJ_ROOT/$LLAMA_EXAMPLE_ROOT \
         -DBUILD_TESTING=OFF \
-        -DCMAKE_TOOLCHAIN_FILE=$ANDROID_NDK_ROOT/build/cmake/android.toolchain.cmake \
         -DCMAKE_BUILD_TYPE=$BUILD_TYPE \
-        -DANDROID_ABI='arm64-v8a' \
-        -DANDROID_PLATFORM=android-30 \
         -DCMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH \
         -DEXECUTORCH_ENABLE_LOGGING=ON \
         -DCMAKE_FIND_ROOT_PATH_MODE_PACKAGE=BOTH \
