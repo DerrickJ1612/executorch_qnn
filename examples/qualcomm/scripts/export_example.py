@@ -102,6 +102,7 @@ def main() -> None:
     compile_spec = generate_qnn_executorch_compiler_spec(
         soc_model=get_soc_to_chipset_map()[args.soc],
         backend_options=backend_options,
+        debug=True
     )
     delegated_program = to_edge_transform_and_lower_to_qnn(
         m, example_inputs, compile_spec, generate_etrecord=args.generate_etrecord

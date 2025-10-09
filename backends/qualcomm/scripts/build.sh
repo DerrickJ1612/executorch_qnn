@@ -29,7 +29,7 @@ usage() {
 BUILD_X86_64="true"
 CMAKE_X86_64="build-x86"
 BUILD_AARCH64="true"
-CMAKE_AARCH64="build-android"
+CMAKE_AARCH64="build-iot"
 CLEAN="true"
 BUILD_TYPE="RelWithDebInfo"
 BUILD_JOB_NUMBER="16"
