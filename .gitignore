@@ -75,3 +75,17 @@ xcuserdata/
 */strace/*
 **/strace/**
 **/model_export/**
+build-iot/
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+a.out
+build.log
+lddebug.log
+pip_build.log
+portable_lib.log
+qcs6490_llama_3-1B_qnn_log_1014.log
+qcs6490_llama_3-1B_qnn_log_1015.log
+qnn_dump.log
