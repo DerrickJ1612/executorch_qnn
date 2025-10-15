@@ -72,7 +72,8 @@ _soc_info_table = {
     QcomChipset.SXR2230P: SocInfo(QcomChipset.SXR2230P, HtpInfo(HtpArch.V69, 8)),
     QcomChipset.SXR2330P: SocInfo(QcomChipset.SXR2330P, HtpInfo(HtpArch.V79, 8)),
     QcomChipset.QCS9100: SocInfo(QcomChipset.QCS9100, HtpInfo(HtpArch.V73, 8)),
-    QcomChipset.QCS6490: SocInfo(QcomChipset.QCS6490, HtpInfo(HtpArch.V68, 8))
+    QcomChipset.QCS6490: SocInfo(QcomChipset.QCS6490, HtpInfo(HtpArch.V68, 2)) #Updated this from 8 to 2, was running into VTCM size 8388608 not supported
+    #CREATE A WAY TO AUTOMATICALLY SET VTCM SIZE BASED ON QNN_SDK QUERY
 }
 
 

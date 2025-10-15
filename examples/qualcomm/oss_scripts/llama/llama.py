@@ -361,7 +361,7 @@ class SingleLlama:
         self,
         work_space,
         use_fp16=False,
-        soc_model=QcomChipset.SM8650,
+        soc_model=QcomChipset.QCS6490, #QcomChipset.SM8650,
         shared_buffer=False,
         verbose=False,
     ):

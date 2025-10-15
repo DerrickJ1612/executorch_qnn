@@ -71,3 +71,7 @@ xcuserdata/
 # Windows
 *.dll
 *.pyd
+*.log
+*/strace/*
+**/strace/**
+**/model_export/**
