@@ -89,3 +89,4 @@ portable_lib.log
 qcs6490_llama_3-1B_qnn_log_1014.log
 qcs6490_llama_3-1B_qnn_log_1015.log
 qnn_dump.log
+**/extension/llm/tokenizers/**
