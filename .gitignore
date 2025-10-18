@@ -71,3 +71,19 @@ xcuserdata/
 # Windows
 *.dll
 *.pyd
+# build outputs / artifacts
+build/
+build-*/
+cmake-out/
+*.onnx
+*.pte
+*.bin
+*.zip
+*.tar
+*.log
+*.a
+*.so
+*.o
+*.pdb
+*.exe
+*.dll
