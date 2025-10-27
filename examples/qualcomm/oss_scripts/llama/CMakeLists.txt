@@ -25,7 +25,7 @@ list(FILTER _llama_runner__srcs EXCLUDE REGEX ".*(/runner/).*")
 list(
   PREPEND
   _llama_runner__srcs
-  ${CMAKE_CURRENT_LIST_DIR}/qnn_llama_runner.cpp
+  ${CMAKE_CURRENT_LIST_DIR}/qnn_llama_runner_streaming.cpp
   ${CMAKE_CURRENT_LIST_DIR}/runner/runner.cpp
   ${CMAKE_CURRENT_LIST_DIR}/runner/runner.h
   ${CMAKE_CURRENT_LIST_DIR}/runner/cache_utils.h

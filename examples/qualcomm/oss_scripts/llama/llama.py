@@ -722,10 +722,11 @@ def compile(
                         kv_quant_attrs=kv_quant_attrs,
                     ),
                 )  # temporarily remove annotate_prefill_kv_output
-            llama_instance.passes_job[TagQuantIO][QCOM_PASS_ACTIVATE_KEY] = True
-            llama_instance.passes_job[TagQuantIO][QCOM_PASS_ARGS_KWARGS_DEFAULTS_KEY][
-                "get_quant_io_dtype_fn"
-            ] = partial(llama_instance._tag_ios, fixed_point_type=fixed_point_type)
+            # llama_instance.passes_job[TagQuantIO][QCOM_PASS_ACTIVATE_KEY] = True
+            # llama_instance.passes_job[TagQuantIO][QCOM_PASS_ARGS_KWARGS_DEFAULTS_KEY][
+            #     "get_quant_io_dtype_fn"
+            # ] = partial(llama_instance._tag_ios, fixed_point_type=fixed_point_type)
+            llama_instance.passes_job[TagQuantIO][QCOM_PASS_ACTIVATE_KEY] = False
 
         # force overriding frozen parameters here for model quantizing under seq mse scenario
         # this will make weight sharing work properly
