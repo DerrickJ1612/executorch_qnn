@@ -44,6 +44,19 @@ Use `backends/qualcomm/scripts/build.sh`. Linux only (macOS not supported).
 | Direct mode (LPAI ADSP or Hexagon CDSP) | disabled | `build-direct/` |
 | OE Linux embedded | disabled | `build-oe-linux/` |
 
+**Preflight:**
+Before building:
+1. Sync/update submodules:
+```bash
+git submodule sync
+git submodule update --init --recursive
+```
+2. Confirm SDK roots:
+```bash
+echo $QNN_SDK_ROOT
+echo $ANDROID_NDK_ROOT
+```
+
 **Common build commands:**
 
 ```bash
